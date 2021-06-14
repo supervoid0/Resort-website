@@ -1,25 +1,14 @@
 import React from 'react';
-import Banner from "../../components/Banner";
+import Banner from "../../components/banner/banner";
+import MainContent from "../../components/mainContent";
+import {BannerInfo, ContentInfo} from "./data";
 
 function Home(props) {
 
-    const BannerInfo = {
-        title:"KOLPONA ISLAND",  
-        subtitle: "Feel the adventure with Luxury Hotel Resort", 
-        bannerImage: "url(/assets/img/background.jpg)",
-        ButtonData: [
-            {
-                btnTitle: "ACCOMODATION"
-            },
-            {
-                btnTitle: "ENTERTAINMENTS"
-            }
-        ]
-    }
-
     return (
         <div>
-            <Banner title = {BannerInfo.title} subtitle = {BannerInfo.subtitle} bannerImage = {BannerInfo.bannerImage} ButtonData = {BannerInfo.ButtonData} />
+            <Banner BannerInfo={BannerInfo} />
+            <MainContent content = {ContentInfo} />
         </div>
     );
 }

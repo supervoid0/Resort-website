@@ -1,5 +1,5 @@
 import React from 'react';
-import BtnBanner from './BtnBanner';
+import BtnBanner from './btnBanner';
 
 const defaultValue = {
     title: "KOLPONA ISLAND",
@@ -7,12 +7,13 @@ const defaultValue = {
     banner: "url(/assets/img/background.jpg)"
 }
 
-function Banner({title = defaultValue.title , subtitle = defaultValue.subtitle, bannerImage = defaultValue.banner, ButtonData = []}) {
+function Banner({BannerInfo}) {
+    const {title = defaultValue.title , subtitle = defaultValue.subtitle, bannerImage = defaultValue.banner, ButtonData = []} = BannerInfo
     return (
         <div className="w-full h-screen bg-center bg-cover" style={{ backgroundImage: `${bannerImage}` }}>
             <div className="w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-40">
                 <div className="mb-6 sm:mb-10">
-                    <p className="text-6xl sm:text-7xl md:text-8xl text-white tracking-wide text-center leading-snug" style={{fontFamily:'Oswald'}}>{title}</p>
+                    <h1 className="text-6xl sm:text-7xl md:text-8xl text-white tracking-wide text-center leading-snug" style={{fontFamily:'Oswald'}}>{title}</h1>
                 </div>
 
                 <div className="mb-10 sm:mb-16">

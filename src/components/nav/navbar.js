@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import DesktopNav from './DesktopNav';
-import MobileNav from './MobileNav';
-import Logo from "./Logo";
-import HamMenuBtn  from "./HamMenuBtn";
+import DesktopNav from './desktopNav';
+import MobileNav from './mobileNav';
+import Logo from "./logo";
+import HamMenuBtn  from "./hamMenuBtn";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 function Navbar() {
@@ -17,7 +17,6 @@ function Navbar() {
         const navItem = document.getElementById('navItem')
         const logo = document.getElementById('logo')
         window.onscroll = function () {
-            "use strict";
             if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
                 nav.classList.remove("md:bg-transparent")
                 nav.classList.remove("md:py-5")
