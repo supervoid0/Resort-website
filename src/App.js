@@ -1,16 +1,25 @@
 import Navbar from "./components/nav/navbar";
 import Home from "./pages/home";
+import Offers from "./pages/offers";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import EntertainmentPage from "./pages/entertainments";
+
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
         <Navbar/>
-        <Home/>
-        <div className="h-700">
-
-        </div>
-
-    </div>
+        <Switch>
+          <Route exact path="/" component={Home}/> 
+          <Route exact path="/offers" component={Offers}/>
+          <Route exact path="/entertainment" component={EntertainmentPage}/>
+        </Switch>
+        
+        <div className="h-700"></div>
+      </div>
+    </Router>
+    
   );
 }
 

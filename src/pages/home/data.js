@@ -1,13 +1,17 @@
+import background from '../../assets/img/Background.jpg'
+
 export const BannerInfo = {
     title:"KOLPONA ISLAND",
     subtitle: "Feel the adventure with Luxury Hotel Resort",
-    bannerImage: "url(/assets/img/background.jpg)",
+    bannerImage: background,
     ButtonData: [
         {
-            btnTitle: "ACCOMODATION"
+            btnTitle: "ACCOMODATION",
+            path: "/accomodation" 
         },
         {
-            btnTitle: "ENTERTAINMENTS"
+            btnTitle: "ENTERTAINMENTS",
+            path: "/entertainment"
         },
     ]
 }
