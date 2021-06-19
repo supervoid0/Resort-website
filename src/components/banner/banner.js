@@ -19,7 +19,7 @@ function Banner({BannerInfo}) {
                 </div>
 
                 <div className="mb-10 sm:mb-16">
-                    <span className="text-base md:text-2xl text-white" style={{fontFamily:'Open Sans'}}>{subtitle}</span>
+                    <span className="text-base md:text-2xl text-white text-center" style={{fontFamily:'Open Sans'}}>{subtitle}</span>
                 </div>
 
                 <div className="flex flex-col sm:flex-row">

@@ -1,8 +1,8 @@
 import React from 'react';
 import BtnLearnMore from "./btn-learnMore";
 
-function DescriptionCatalog({description}) {
-    const {title, details, buttonData} = description
+function DescriptionCatalog({content}) {
+    const {title, description, buttonData} = content
 
     return (
         <div className="w-full xl:w-1/2 mt-10 xl:mt-0 flex items-center">
@@ -12,7 +12,7 @@ function DescriptionCatalog({description}) {
                 </h1>
 
                 <p className="text-lg my-10" style={{fontFamily:'Roboto'}}>
-                    {details}
+                    {description}
                 </p>
                 <BtnLearnMore buttonData={buttonData}/>
             </div>

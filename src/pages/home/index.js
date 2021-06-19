@@ -8,7 +8,7 @@ function Home(props) {
     return (
         <div>
             <Banner BannerInfo={BannerInfo} />
-            <MainContent content = {ContentInfo} />
+            <MainContent contentInfo = {ContentInfo} />
         </div>
     );
 }

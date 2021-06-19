@@ -17,10 +17,15 @@ export const ContentInfo = [
             isImagePositionLeft: true,
             source: offer_one,
         },
-        description: {
+        content: {
             title: "Honeymoon Offer",
-            details: "We are providing an amazing discount for newly married couple that includes some free ticket for entertainment as well as more than 30% off.",
-            buttonData: ""
+            description: "We are providing an amazing discount for newly married couple that includes some free ticket for entertainment as well as more than 30% off.",
+            buttonData: "",
+            details: {
+                paragraph: "",
+                galleryImages: []
+            }
+            
         },
     },
     {
@@ -28,9 +33,9 @@ export const ContentInfo = [
             isImagePositionLeft: false,
             source: offer_two,
         },
-        description: {
+        content: {
             title: "Special offer on Valentine’s Day",
-            details: "Don’t miss our big offer on the special day, this offer is available for everyone. Hurry up and confirm your reservation. In this time we are offering up to 45% DISCOUNT!",
+            description: "Don’t miss our big offer on the special day, this offer is available for everyone. Hurry up and confirm your reservation. In this time we are offering up to 45% DISCOUNT!",
             buttonData: ""
         },
     },
@@ -39,9 +44,9 @@ export const ContentInfo = [
             isImagePositionLeft: true,
             source: offer_three,
         },
-        description: {
+        content: {
             title: "The biggest OFFER on New Year",
-            details: "On this occasion our resort providing the biggest offer for anyone such as discount on accommodation and entry fee etc. This offer will be closed very soon, so booked your seat as soon as possible.",
+            description: "On this occasion our resort providing the biggest offer for anyone such as discount on accommodation and entry fee etc. This offer will be closed very soon, so booked your seat as soon as possible.",
             buttonData: ""
         },
     }

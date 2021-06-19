@@ -1,9 +1,9 @@
 import React from 'react';
 import Catalog from './catalog'
 
-function MainContent({content}) {
+function MainContent({contentInfo}) {
     return (
-        content? content.map((each)=><Catalog catalogData={each}/>): null
+        contentInfo? contentInfo.map((each)=><Catalog catalogData={each}/>): null
     );
 }
 

@@ -9,7 +9,7 @@ function Offers(props) {
     return (
         <div>
             <Banner BannerInfo={BannerInfo} />
-            <MainContent content = {ContentInfo} />
+            <MainContent ContentInfo = {ContentInfo} />
         </div>
     );
 }

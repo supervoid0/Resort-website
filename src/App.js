@@ -16,7 +16,7 @@ function App() {
           <Route exact path="/entertainment" component={EntertainmentPage}/>
         </Switch>
         
-        <div className="h-700"></div>
+        <div className="h-700"/>
       </div>
     </Router>
     
