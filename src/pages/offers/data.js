@@ -22,7 +22,7 @@ export const ContentInfo = [
             description: "We are providing an amazing discount for newly married couple that includes some free ticket for entertainment as well as more than 30% off.",
             buttonData: "",
             details: {
-                paragraph: "",
+                paragraph: "If you stay the resort at least 3days and 3 nights then you will enjoy free “Somudro Bilash” Speed Boat Service for your ride 2 ticket will be provide without any cost and 30% OFF on house rent",
                 galleryImages: []
             }
             
@@ -36,7 +36,12 @@ export const ContentInfo = [
         content: {
             title: "Special offer on Valentine’s Day",
             description: "Don’t miss our big offer on the special day, this offer is available for everyone. Hurry up and confirm your reservation. In this time we are offering up to 45% DISCOUNT!",
-            buttonData: ""
+            buttonData: "",
+            details: {
+                paragraph: "Don’t miss our big offer on the special day, this offer is available for everyone. Hurry up and confirm your reservation. In this time we are offering up to 45% DISCOUNT!" +
+                    "“Hirozu Water Skiing” which is completely FREE. This offer is providing only by us through all over the world and 10% OFF into entry fee. Those who will visit there with more than 5 people, we will provide them extra 15% off, for the entry fee",
+                galleryImages: []
+            }
         },
     },
     {
@@ -47,7 +52,11 @@ export const ContentInfo = [
         content: {
             title: "The biggest OFFER on New Year",
             description: "On this occasion our resort providing the biggest offer for anyone such as discount on accommodation and entry fee etc. This offer will be closed very soon, so booked your seat as soon as possible.",
-            buttonData: ""
+            buttonData: "",
+            details: {
+                paragraph: "On the 1st three days of new year, 15% OFF on the house rent. You can enjoy this offer as long as you want to stay. If you stay more than 5 nights on our resort, you can get extra 20% DISCOUNT for the house rent",
+                galleryImages: []
+            }
         },
     }
 ]
