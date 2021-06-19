@@ -4,7 +4,7 @@ import defaultBg from '../../assets/img/Background.jpg'
 
 const defaultValue = {
     title: "KOLPONA ISLAND",
-    subtitle: "Feel the adventure with Luxury Hotel Resort",
+    subtitle: "",
     banner: defaultBg
 }
 
