@@ -12,8 +12,11 @@ function DetailPage() {
     return (
         <div>
             <Banner BannerInfo={content}/>
-            <DetailDescription description = {content.details.paragraph}/>
-            <DetailGallery galleryImage={content.details.galleryImages}/>
+            <DetailDescription description = {content.details}/>
+            {
+                content.galleryImage?
+                <DetailGallery galleryImage={content.galleryImages}/> : null
+            }
         </div>
     );
 }
