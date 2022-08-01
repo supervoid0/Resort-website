@@ -3,18 +3,18 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      height:{
-        '700' : '700px',
-        '600' : '600px',
-        '500' : '500px'
+      height: {
+        700: '700px',
+        600: '600px',
+        500: '500px',
       },
-      width:{
-        '1280' : '1280px'
-      }
+      width: {
+        1280: '1280px',
+      },
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
