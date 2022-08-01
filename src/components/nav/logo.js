@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Logo(props) {
+function Logo() {
   return (
     <div className="absolute left-1/2">
       <h1

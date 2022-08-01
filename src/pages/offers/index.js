@@ -3,7 +3,7 @@ import Banner from '../../components/banner/banner';
 import MainContent from '../../components/mainContent';
 import { BannerInfo, ContentInfo } from './data';
 
-function Offers(props) {
+function Offers() {
   return (
     <div>
       <Banner BannerInfo={BannerInfo} />
